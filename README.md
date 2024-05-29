@@ -14,6 +14,7 @@
 运行画图文件即可
 
 **一些备注：**
+以下文件均在src/point-to-point/model文件夹下
 
 只添加了两个文件：
 gemma.h/cc:gemma的具体实现，其余的均无改动
