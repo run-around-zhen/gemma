@@ -14,10 +14,9 @@
 运行画图文件即可
 
 **一些备注：**
-以下文件均在src/point-to-point/model文件夹下
 
 只添加了两个文件：
-gemma.h/cc:gemma的具体实现，其余的均无改动
+src/point-to-point/model/gemma.h/cc:gemma的具体实现，其余的均无改动
 
 动态负载的修改，gemma.cc中把10修改为responseNum即可
 ![f45921f5b505cb80f30d3989e081e3d](https://github.com/run-around-zhen/gemma/assets/55088145/705011fd-a351-49a5-a423-6b2a4a825806)
