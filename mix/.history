@@ -1,0 +1,19 @@
+date,id,ccmode,lbmode,cwh_tx_expiry_time,cwh_extra_reply_deadline,cwh_path_pause_time,cwh_extra_voq_flush_time,cwh_default_voq_waiting_time,pfc,irn,has_win,var_win,topo,bw,cdf,load,time
+03/18/24,860478357,1,10,1000,4,16,64,400,1,0,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,30,0.01
+./waf --run 'scratch/network-load-balance /home/zhen/workspace/experiment/ns-3.19/mix/output/860478357/config.txt' > /home/zhen/workspace/experiment/ns-3.19/mix/output/860478357/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/zhen/workspace/experiment/ns-3.19/mix/output/860478357/config.txt'
+
+
+03/18/24,325673071,1,9,300,4,16,16,200,1,0,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,30,0.01
+./waf --run 'scratch/network-load-balance /home/zhen/workspace/experiment/ns-3.19/mix/output/325673071/config.txt' > /home/zhen/workspace/experiment/ns-3.19/mix/output/325673071/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/zhen/workspace/experiment/ns-3.19/mix/output/325673071/config.txt'
+
+
+04/07/24,548589669,1,0,1000,4,16,64,400,1,0,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,30,0.01
+./waf --run 'scratch/network-load-balance /home/zhen/workspace/experiment/ns-3.19/mix/output/548589669/config.txt' > /home/zhen/workspace/experiment/ns-3.19/mix/output/548589669/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/zhen/workspace/experiment/ns-3.19/mix/output/548589669/config.txt'
+
+04/07/24,108950702,1,3,1000,4,16,64,400,1,0,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,30,0.01
+./waf --run 'scratch/network-load-balance /home/zhen/workspace/experiment/ns-3.19/mix/output/108950702/config.txt' > /home/zhen/workspace/experiment/ns-3.19/mix/output/108950702/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/zhen/workspace/experiment/ns-3.19/mix/output/108950702/config.txt'
+
